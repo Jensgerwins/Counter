@@ -1,0 +1,62 @@
+html,body{
+ 
+    height: 100%;
+}
+
+body {
+    display: contents;
+    background-color:white;
+    margin: 0%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+h1{
+    margin: 0;
+}
+
+
+  header{
+    
+    padding: 5rem;
+     
+    background-color:aquamarine;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: red solid 0.3rem;
+    
+   
+}
+
+   .reset-button {
+background-color: red;
+color: beige;
+
+display: flex;
+justify-content: center;
+align-content: center;
+width: 15%;
+border:black solid ;
+box-shadow: 3px 3px 3px black;
+padding: 8px;
+margin-right: 10rem;
+}
+
+label {
+    font-size: 5rem;
+    padding: 0%;
+   }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(gold,gold);
+  background-size: var(--counter, 0) 100%;
+  background-repeat: no-repeat;
+  transition: 0.25s background-size ease-in-out;
+ 
+ 
+
+}
